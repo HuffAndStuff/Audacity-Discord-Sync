@@ -3,14 +3,14 @@ Discord Bot for syncing Audacity recordings for podcasts through Discord.
 
 
 # Description:
-This is a personal project that was written for recording a podcast through Discord. We were disappointed that multiple online issues existed due to poor internet connections, which lead us to needing to do local recordings of each persons audio. This essentially is a discord "Clapperboard" for starting the recordings at the same time. 
+This is a personal project that was written for recording a podcast through Discord. We were disappointed that multiple online issues existed due to poor internet connections, which led us to needing to do local recordings of each person's audio. This essentially is a discord "Clapperboard" for starting the recordings at the same time. Discord can have multiple instances of the same bot running on the same guild, and as such we can each run an instance that opens a mod-pipe in Audacity. 
 
-You're welcome to use the tool, but it will likely have sporatic updates or changes without warning.
+You're welcome to use the tool, but it will likely have sporadic updates or changes without warning.
 
 # Warnings:
 Technically there are two security concerns to keep in mind:
 1. Firstly Enabling mod-script-pipe in Audacity does have some security concerns due to a remote object running commands through the program. Please see https://manual.audacityteam.org/man/scripting.html
-2. Secondly each member of the recording will need to be running the bot. This allows all of them to sync to the same command at the same time. But does expose your Bot Key. This is a very high risk, and as such should not be given to anyone without trust. 
+2. Secondly each member of the recording will need to be running the bot. This allows all of them to sync to the same command at the same time. But does expose your Bot Key to each individual running the script / bot. This is a very high risk, and as such should not be given to anyone without trust. 
 
 
 # Directions:
